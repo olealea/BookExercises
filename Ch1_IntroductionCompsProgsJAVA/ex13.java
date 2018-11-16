@@ -15,5 +15,7 @@ public class ex13 {
 
         System.out.println("Solution is: ");
         System.out.println("x = " + x + " and y = " + y + ".");
+
+        System.out.println((int)(10.030 * 100));
     }
 }
