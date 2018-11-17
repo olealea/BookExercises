@@ -1,4 +1,4 @@
-package Ch1_IntroductionCompsProgsJAVA;
+package CH1_IntroductionToComputerScienceAndJAVA;
 
 /**(Print a table) Write a program that displays the following table:
  a     a^2     a^3
@@ -6,7 +6,7 @@ package Ch1_IntroductionCompsProgsJAVA;
  2      4       8
  3      9      27
  4      16     64 */
-public class ex04 {
+public class ex04_PrintTable {
     public static void main(String[] args) {
         System.out.println(" a     a^2     a^3");
         System.out.println(" 1      1       1");

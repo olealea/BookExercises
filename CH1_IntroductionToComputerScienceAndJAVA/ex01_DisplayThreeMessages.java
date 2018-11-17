@@ -1,8 +1,8 @@
-package Ch1_IntroductionCompsProgsJAVA;
+package CH1_IntroductionToComputerScienceAndJAVA;
 
 /**(Display three messages) Write a program that displays Welcome to Java,
 Welcome to Computer Science, and Programming is fun.*/
-public class ex01 {
+public class ex01_DisplayThreeMessages {
     public static void main(String[] args) {
         System.out.println("Welcome to Java");
         System.out.println("Welcome to Computer Science");

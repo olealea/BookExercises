@@ -1,7 +1,7 @@
-package Ch1_IntroductionCompsProgsJAVA;
+package CH1_IntroductionToComputerScienceAndJAVA;
 
-/** Please find  the ex07.PNG file from this package*/
-public class ex07 {
+/** Please find  the appropriate .PNG file from this package*/
+public class ex07_ApproximatePI {
     public static void main(String[] args) {
         double pi1, pi2;
         pi1 = 4 * (1.0 - 1.0 / 3 + 1.0 / 5 - 1.0 / 7 + 1.0 / 9 - 1.0 / 11);

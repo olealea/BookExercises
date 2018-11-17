@@ -1,9 +1,9 @@
-package Ch1_IntroductionCompsProgsJAVA;
+package CH1_IntroductionToComputerScienceAndJAVA;
 
 /** (Average speed in miles) Assume a runner runs 14 kilometers in 45 minutes and 30
  seconds. Write a program that displays the average speed in miles per hour. (Note
  that 1 mile is 1.6 kilometers.) */
-public class ex10 {
+public class ex10_AverageSpeedInMiles {
     public static void main(String[] args) {
         int distance = 14;
         double time = 45.5;

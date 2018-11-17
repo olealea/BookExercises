@@ -1,11 +1,11 @@
-package Ch1_IntroductionCompsProgsJAVA;
+package CH1_IntroductionToComputerScienceAndJAVA;
 
 /**(Display a pattern) Write a program that displays the following pattern:
      J      A     V     V     A
      J     A A     V   V     A A
  J   J    AAAAA     V V     AAAAA
   J J    A     A     V     A     A   */
- public class ex03 {
+ public class ex03_DisplayPatternJAVA {
  public static void main(String[] args) {
   System.out.println("     J      A     V     V     A");
   System.out.println("     J     A A     V   V     A A");

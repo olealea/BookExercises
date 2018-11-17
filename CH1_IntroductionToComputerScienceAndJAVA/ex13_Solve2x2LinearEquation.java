@@ -1,7 +1,7 @@
-package Ch1_IntroductionCompsProgsJAVA;
+package CH1_IntroductionToComputerScienceAndJAVA;
 
-/** Please find  the ex13.PNG file from this package*/
-public class ex13 {
+/** Please find  the appropriate .PNG file from this package*/
+public class ex13_Solve2x2LinearEquation {
     public static void main(String[] args) {
         double a = 3.4;
         double b = 50.2;
