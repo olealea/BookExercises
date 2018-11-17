@@ -1,5 +1,7 @@
 package CH2_ElementaryProgramming;
 
+import java.util.Scanner;
+
 /** (Science: calculating energy) Write a program that calculates the energy needed
  to heat water from an initial temperature to a final temperature. Your program
  should prompt the user to enter the amount of water in kilograms and the initial
@@ -13,4 +15,21 @@ package CH2_ElementaryProgramming;
     Enter the final temperature: 10.5
     The energy needed is 1625484.0 */
 public class ex10_Science_CalculatingEnergy {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the amount of water in kilograms: ");
+        double weightOfWater = input.nextDouble();
+
+        System.out.println("Enter the initial temperature: ");
+        double initialTemperature = input.nextDouble();
+
+        System.out.println("Enter the final temperature: ");
+        double finalTemperature = input.nextDouble();
+
+        //Calculate the energy
+        double energy = weightOfWater * (finalTemperature - initialTemperature) * 4184;
+
+        System.out.println("The energy needed is " + energy + " joules");
+    }
 }
