@@ -1,4 +1,4 @@
-package Ch2_ElementaryProgramming;
+package CH2_ElementaryProgramming;
 
 /** (Print a table) Write a program that displays the following table. Cast floatingpoint
  numbers into integers.
@@ -8,5 +8,5 @@ package Ch2_ElementaryProgramming;
  3  4   81
  4  5   1024
  5  6   15625*/
-public class ex18 {
+public class ex18_PrintTable {
 }

@@ -1,4 +1,4 @@
-package Ch2_ElementaryProgramming;
+package CH2_ElementaryProgramming;
 
 /** (Health application: computing BMI) Body Mass Index (BMI) is a measure of
  health on weight. It can be calculated by taking your weight in kilograms and
@@ -10,5 +10,5 @@ package Ch2_ElementaryProgramming;
  Enter weight in pounds: 95.5
  Enter height in inches: 50
  BMI is 26.8573 */
-public class ex14 {
+public class ex14_HealthApp_ComputeBMI {
 }

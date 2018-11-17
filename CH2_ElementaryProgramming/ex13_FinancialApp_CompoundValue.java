@@ -1,4 +1,4 @@
-package Ch2_ElementaryProgramming;
+package CH2_ElementaryProgramming;
 
 /** (Financial application: compound value) Suppose you save $100 each month
  into a savings account with the annual interest rate 5%. Thus, the monthly interest
@@ -16,5 +16,5 @@ package Ch2_ElementaryProgramming;
 
  Enter the monthly saving amount: 100
  After the sixth month, the account value is $608.81 */
-public class ex13 {
+public class ex13_FinancialApp_CompoundValue {
 }

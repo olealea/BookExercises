@@ -1,4 +1,4 @@
-package Ch2_ElementaryProgramming;
+package CH2_ElementaryProgramming;
 
 /** (Science: calculating energy) Write a program that calculates the energy needed
  to heat water from an initial temperature to a final temperature. Your program
@@ -12,5 +12,5 @@ package Ch2_ElementaryProgramming;
     Enter the initial temperature: 3.5
     Enter the final temperature: 10.5
     The energy needed is 1625484.0 */
-public class ex10 {
+public class ex10_Science_CalculatingEnergy {
 }
