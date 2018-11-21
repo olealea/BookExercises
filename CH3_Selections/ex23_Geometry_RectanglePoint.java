@@ -1,5 +1,7 @@
 package CH3_Selections;
 
+import java.util.Scanner;
+
 /**
  * (Geometry: point in a rectangle?) Write a program that prompts the user to enter
  a point (x, y) and checks whether the point is within the rectangle centered at
@@ -15,4 +17,20 @@ package CH3_Selections;
     Point (6.0, 4.0) is not in the rectangle
  */
 public class ex23_Geometry_RectanglePoint {
+    public static final double WIDTH = 10;
+    public static final double HEIGHT = 5;
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter a point with two coordinates");
+        double x = input.nextDouble();
+        double y = input.nextDouble();
+
+        if ((x <= WIDTH / 2) && (y <= HEIGHT / 2)) {
+            System.out.printf("Point (%.1f, %.1f) is in the rectangle", x, y);
+        } else {
+            System.out.printf("Point (%.1f, %.1f) is not in the rectangle", x, y);
+        }
+    }
 }
