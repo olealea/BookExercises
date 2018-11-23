@@ -5,4 +5,9 @@ package CH4_MathFunctionsCharactersAndStrings;
  * using the Math.random() method.
  */
 public class ex16_RandomCharacter {
+    public static void main(String[] args) {
+
+        System.out.println("Random uppercase letter: " + (char) (65 + Math.random() * 25));
+
+    }
 }

@@ -1,5 +1,7 @@
 package CH4_MathFunctionsCharactersAndStrings;
 
+import java.util.Scanner;
+
 /**
  * (Geometry: area of a regular polygon) A regular polygon is an n-sided polygon in
  * which all sides are of the same length and all angles have the same degree (i.e., the
@@ -17,4 +19,16 @@ package CH4_MathFunctionsCharactersAndStrings;
  * The area of the polygon is 74.69017017488385
  */
 public class ex05_AreaOfRegularPolygon {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the number of sides: ");
+        int numberOfSides = input.nextInt();
+
+        System.out.println("Enter the side: ");
+        double side = input.nextDouble();
+
+        System.out.printf("The area of polygon is %f",
+                numberOfSides * side * side / (4 * Math.tan(Math.PI / numberOfSides)));
+    }
 }
